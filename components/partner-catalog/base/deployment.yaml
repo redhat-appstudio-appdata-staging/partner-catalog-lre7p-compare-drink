@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/catoconn-rhmi-tenant/partner-catalog/partner-catalog@sha256:11f96aca49fa98957c3fd351091b420f51c2d6e079a3462a7f8a8932cfcab105
+      - image: quay.io/redhat-user-workloads-stage/catoconn-rhmi-tenant/partner-catalog/partner-catalog@sha256:d15936869523e667f2feb10527a4294a4a3c48106ad1e468169ff3d33e19eed7
         name: my-java-springboot
         ports:
         - containerPort: 8081
